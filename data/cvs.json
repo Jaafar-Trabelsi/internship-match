@@ -1,0 +1,27 @@
+[
+  {
+    "id": "C01",
+    "text": "Third-year computer science student. Built dashboards in Power BI for a student association's budget. Analysed datasets with Python (pandas) and wrote SQL queries on a PostgreSQL database for a course project. Comfortable with Excel and basic statistics.",
+    "skills": ["python", "sql", "powerbi", "excel", "pandas", "statistics"]
+  },
+  {
+    "id": "C02",
+    "text": "Third-year student focused on web development. Built a portfolio site and a small e-commerce app with React and Node.js. Uses Git and GitHub daily. Knows HTML, CSS and JavaScript, and has written simple SQL queries for a MySQL backend.",
+    "skills": ["javascript", "react", "nodejs", "html", "css", "git", "sql"]
+  },
+  {
+    "id": "C03",
+    "text": "Fourth-year student with a machine learning focus. Trained classification and regression models with scikit-learn, and built a small image classifier with PyTorch for a course project. Handles data cleaning with pandas and Python scripts.",
+    "skills": ["python", "machine_learning", "scikit-learn", "pytorch", "pandas"]
+  },
+  {
+    "id": "C04",
+    "text": "Third-year student specialised in cybersecurity. Ran network scans with Nmap and analysed traffic with Wireshark in lab exercises. Works on Linux, writes Bash scripts and short Python scripts to automate tasks. Understands TCP/IP and basic firewall rules.",
+    "skills": ["linux", "networking", "nmap", "wireshark", "bash", "python", "firewalls"]
+  },
+  {
+    "id": "C05",
+    "text": "Second-year student at the start of the curriculum. Learned HTML and CSS in a first-year course, wrote small programs in Java and basic Python exercises. Has used Git for a group assignment.",
+    "skills": ["html", "css", "java", "python", "git"]
+  }
+]

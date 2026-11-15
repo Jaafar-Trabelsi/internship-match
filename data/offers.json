@@ -1,0 +1,112 @@
+[
+  {
+    "id": "O01",
+    "title": "Marketing Data Analyst Intern - PFE (Bosch, Casablanca)",
+    "text": "Marketing Data Analyst internship (PFE) at Bosch in Casablanca. The intern designs, develops and maintains Power BI dashboards to track marketing KPIs and support reporting and decision-making, working closely with the Data Manager. Candidates are final-year students in engineering, computer science, data or information systems, with solid foundations in data analysis, knowledge of Power BI, and familiarity with SQL and advanced Excel. Python and basic AI/ML knowledge are mentioned as a plus or as motivation to learn.",
+    "requirements": [
+      "powerbi",
+      "sql",
+      "excel"
+    ],
+    "origin": "summary_of_public_offer",
+    "source": "https://www.iagora.com/work/fr/offre/stage-maroc-finance/5962373"
+  },
+  {
+    "id": "O02",
+    "title": "Stage PFE - Web interfaces (Cnexia, Rabat)",
+    "text": "End-of-studies internship (PFE) at Cnexia in Rabat to build modern, responsive web interfaces. Candidates are final-year engineering school or Master students in computer science with good command or good knowledge of React, TypeScript, Next.js, Python, FastAPI and REST APIs.",
+    "requirements": [
+      "react",
+      "typescript",
+      "nextjs",
+      "python",
+      "fastapi",
+      "rest_apis"
+    ],
+    "origin": "summary_of_public_offer",
+    "source": "https://www.rekrute.com/fr/offre-emploi-stage-pfe-recrutement-cnexia-rabat-186208.html"
+  },
+  {
+    "id": "O03",
+    "title": "Stage PFE - Developpeur Intelligence Artificielle (Inovadex, Rabat)",
+    "text": "Six-month on-site PFE internship in Rabat as an AI developer at Inovadex. The intern develops and optimises Machine Learning and Deep Learning models, builds solutions with generative AI, and uses and adapts LLMs. Candidates are final-year Bac+5 students in artificial intelligence, data science or computer science with good foundations in Python, Machine Learning and Deep Learning.",
+    "requirements": [
+      "python",
+      "machine_learning",
+      "deep_learning"
+    ],
+    "origin": "summary_of_public_offer",
+    "source": "https://ma.indeed.com/q-python-emplois.html?start=20",
+    "source_note": "Source is an Indeed listing page, not a single-offer page."
+  },
+  {
+    "id": "O04",
+    "title": "Stage Ingenieur cybersecurite - detection d'intrusion reseau (ANSSI, Paris)",
+    "text": "Technical internship on network intrusion detection at ANSSI in Paris, carried out in pairs, with possible hiring after the internship. Candidates should know DevOps practices (infrastructure as code, automation) and have good knowledge of networks and GNU/Linux systems (configuration, administration and hardening). A security clearance procedure may apply.",
+    "requirements": [
+      "devops",
+      "networking",
+      "linux"
+    ],
+    "origin": "summary_of_public_offer",
+    "source": "https://talents.ssi.gouv.fr/offresdemploi/stage-ingenieur-cybersecurite-pour-detection-d-intrusion-reseau-f-h.pdf",
+    "source_note": "Offer located in Paris (France)."
+  },
+  {
+    "id": "O05",
+    "title": "Data & Reporting Intern (Python + Power BI)",
+    "text": "Data and reporting internship. The intern collects, cleans and structures source data, writes Python scripts to automate data processing, and designs and updates interactive Power BI dashboards. Candidates need experience with Power BI (dashboards, data modelling, DAX) and a good understanding of database and reporting concepts.",
+    "requirements": [
+      "python",
+      "powerbi"
+    ],
+    "origin": "summary_of_public_offer",
+    "source": "https://www.iagora.com/work/it/offerta/stage-marocco-informatica/5919429",
+    "source_note": "Python kept as requirement because it appears in the offer title."
+  },
+  {
+    "id": "O06",
+    "title": "Web Developer Intern (HTML/CSS/JavaScript)",
+    "text": "Web development internship. Candidates need a good command of web development with HTML, CSS and JavaScript. A first experience (internship or project) with a front-end framework such as React, Angular or Vue.js is expected, as well as backend experience with Python, Django or Node.js.",
+    "requirements": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "origin": "summary_of_public_offer",
+    "source": "https://www.iagora.com/work/it/offerta/lavoro-marocco-informatica/5907798",
+    "source_note": "Title not shown in source; front-end framework and backend are alternatives (or), so not listed as requirements."
+  },
+  {
+    "id": "O07",
+    "title": "Internship at a dynamic company",
+    "text": "Join our dynamic team for a great internship. You will work in a stimulating environment with passionate people and grow your career. Send us your application.",
+    "requirements": [],
+    "origin": "written_by_us_vague",
+    "source": null
+  },
+  {
+    "id": "O08",
+    "title": "Technology internship",
+    "text": "We are looking for motivated interns who love technology and want to discover the professional world. A fantastic opportunity to learn and to be part of an innovative company.",
+    "requirements": [],
+    "origin": "written_by_us_vague",
+    "source": null
+  },
+  {
+    "id": "O09",
+    "title": "IT intern wanted",
+    "text": "Our growing company offers an internship in the IT department. You will take part in various projects and support the team in daily activities. Join us and make a difference.",
+    "requirements": [],
+    "origin": "written_by_us_vague",
+    "source": null
+  },
+  {
+    "id": "O10",
+    "title": "Summer internship opportunity",
+    "text": "Looking for a summer experience in a friendly company? Our team welcomes curious and enthusiastic students. Great atmosphere, flexible hours and lots of learning.",
+    "requirements": [],
+    "origin": "written_by_us_vague",
+    "source": null
+  }
+]
