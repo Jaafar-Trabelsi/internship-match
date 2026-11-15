@@ -1,0 +1,25 @@
+case,cv,offer,gold,gemini,check
+1,C01,O01,qualifies,almost,WRONG
+2,C01,O05,qualifies,almost,WRONG
+3,C02,O06,qualifies,qualifies,
+4,C06,O02,qualifies,qualifies,
+5,C08,O03,qualifies,almost,WRONG
+6,C09,O04,qualifies,almost,WRONG
+7,C02,O05,almost,not suited,WRONG
+8,C03,O03,almost,almost,
+9,C04,O04,almost,almost,
+10,C07,O02,almost,almost,
+11,C08,O05,almost,almost,
+12,C10,O01,almost,almost,
+13,C02,O01,not suited,not suited,
+14,C05,O06,not suited,not suited,
+15,C01,O02,not suited,not suited,
+16,C03,O01,not suited,almost,WRONG
+17,C04,O03,not suited,not suited,
+18,C09,O03,not suited,not suited,
+19,C06,O04,not suited,not suited,
+20,C05,O02,not suited,not suited,
+21,C01,O07,refuse,refuse,
+22,C06,O08,refuse,refuse,
+23,C08,O09,refuse,refuse,
+24,C09,O10,refuse,refuse,
