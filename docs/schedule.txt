@@ -1,0 +1,81 @@
+═══════════════════════════════════════════
+ PROJECT SCHEDULE - schedule.txt
+ Internship Match - AI Project
+ Deadline: Friday, November 27  (ASSUMED - see note at the end)
+═══════════════════════════════════════════
+
+───────────────────────────────────────────
+ JAAFAR  (Block 1 + Block 4 + most of Block 6)
+───────────────────────────────────────────
+Sun Nov 15 - Tue Nov 17   Set up repo, Colab notebook, Gemini key
+                          Build the cache for Gemini calls
+                          Build the Match step with embeddings
+                          (test it on a few examples)
+Wed Nov 18 - Thu Nov 19   Check the data files with Habib
+                          Measure the baseline: Gemini alone
+                          -> DEADLINE: data + baseline + Match done (Nov 19)
+Fri Nov 20 - Mon Nov 23   Build Extract, Decide and Explain
+                          Chain the 4 steps in the notebook
+                          -> DEADLINE: notebook runs top to bottom (Nov 23)
+Tue Nov 24 - Wed Nov 25   Measure the full system
+                          Run the ablation (without Decide)
+                          -> DEADLINE: all measurements done (Nov 25)
+Thu Nov 26                Write the report: problem, claim,
+                          architecture, results, what failed
+Fri Nov 27                Final check, then submit
+                          -> DEADLINE: report + code (Nov 27)
+
+
+───────────────────────────────────────────
+ HABIB  (Block 2 + Block 5 + part of Block 6)
+───────────────────────────────────────────
+Sun Nov 15 - Tue Nov 17   Collect 10 public IT internship offers
+                          by hand -> data/offers.json
+                          Write 5 synthetic CVs -> data/cvs.json
+                          -> DEADLINE: offers + CVs done (Nov 17)
+Wed Nov 18 - Thu Nov 19   Help write data/eval_set.json with Jaafar
+                          Check every correct verdict
+                          -> DEADLINE: evaluation set done (Nov 19)
+Wed Nov 25                Fill the results table with the real numbers
+Thu Nov 26                Write the "limits" part of the report
+                          and "measured / estimated / not verified"
+                          Proofread the report
+Fri Nov 27                Prepare the part of the demo he presents
+                          (the problem and the data)
+
+
+───────────────────────────────────────────
+ BOTH
+───────────────────────────────────────────
+Wed Nov 18 - Thu Nov 19   Write the evaluation set together
+                          (correct verdicts written BEFORE the
+                          system runs, including vague offers
+                          to refuse)
+Thu Nov 26 - Fri Nov 27   Run the whole notebook from an empty runtime
+                          Rehearse the 10-minute live demo
+                          Buffer: fix bugs or gaps found late
+
+
+───────────────────────────────────────────
+ QUICK DEADLINE RECAP
+───────────────────────────────────────────
+Nov 17   Offers + CVs done                (Habib)
+Nov 19   Evaluation set done              (Jaafar + Habib)
+Nov 19   Baseline + Match step done       (Jaafar)
+Nov 23   Notebook runs top to bottom      (Jaafar)
+Nov 25   All measurements + results table (Jaafar + Habib)
+Nov 26   Report drafted + limits written  (Jaafar + Habib)
+Nov 27   Report + code submitted, demo rehearsed
+
+
+───────────────────────────────────────────
+ NOTE - DATES TO CHECK
+───────────────────────────────────────────
+Nov 27 is ASSUMED from the folder name. Replace it with the real date.
+The brief says the report (6 pages max) and the code are due
+48 hours BEFORE the defence slot, and the defence is
+10 minutes of live demo + 10 minutes of questions.
+Lab 8 and Lab 9 dates are not in this file: if they come earlier,
+move the evaluation set and the baseline earlier too.
+Gemini free tier: about 15 requests per minute, 1500 per day.
+Do not wait until the last evening to run the measurements.

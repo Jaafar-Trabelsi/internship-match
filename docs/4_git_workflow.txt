@@ -1,0 +1,93 @@
+═══════════════════════════════════════════
+ HOW TO WORK ON THE REPO - git_workflow.txt
+═══════════════════════════════════════════
+
+Repo: internship-match
+Main branch owner: Jaafar (only he merges into main)
+
+Rule #1: NEVER push directly to "main".
+Always work on your own branch, then send a Pull Request.
+
+
+───────────────────────────────────────────
+ STEP 1 - Get the repo on your computer
+───────────────────────────────────────────
+(only once, the first time)
+
+    git clone <repo-url>
+    cd internship-match
+
+
+───────────────────────────────────────────
+ STEP 2 - Create YOUR branch
+───────────────────────────────────────────
+    Jaafar -> git checkout -b jaafar-system
+    Habib  -> git checkout -b habib-data
+
+You work ONLY inside your branch.
+
+
+───────────────────────────────────────────
+ STEP 3 - Do your work
+───────────────────────────────────────────
+Edit / add files in the folders assigned to you
+(see repo_structure.txt and task_blocks.txt).
+
+
+───────────────────────────────────────────
+ STEP 4 - Save your changes (commit)
+───────────────────────────────────────────
+    git add .
+    git commit -m "short message describing what you did"
+
+Example:
+    git commit -m "add 5 internship offers to offers.json"
+
+
+───────────────────────────────────────────
+ STEP 5 - Send your branch to GitHub
+───────────────────────────────────────────
+    git push origin YOUR-BRANCH-NAME
+
+
+───────────────────────────────────────────
+ STEP 6 - Open a Pull Request (PR)
+───────────────────────────────────────────
+1. Go to the repo on GitHub.com
+2. Click the yellow "Compare & pull request" banner
+3. Title = what you did
+4. Click "Create pull request"
+5. Message Jaafar that it's ready
+
+Jaafar reviews it and merges it into "main".
+Do NOT merge your own PR.
+
+
+───────────────────────────────────────────
+ STEP 7 - Keep your branch updated (if main changed)
+───────────────────────────────────────────
+    git checkout main
+    git pull origin main
+    git checkout YOUR-BRANCH-NAME
+    git merge main
+
+
+───────────────────────────────────────────
+ JSON TIP (data files)
+───────────────────────────────────────────
+Before committing offers.json, cvs.json or eval_set.json,
+check them in a JSON validator (or VS Code).
+One missing comma or quote breaks the whole file.
+
+
+───────────────────────────────────────────
+ SECRETS
+───────────────────────────────────────────
+Never commit the Gemini API key or gemini_cache.json.
+
+
+───────────────────────────────────────────
+ IF SOMETHING GOES WRONG
+───────────────────────────────────────────
+Don't force-push, don't delete branches yourself.
+Message Jaafar and ask before doing anything you're not sure about.

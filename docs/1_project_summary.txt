@@ -1,0 +1,40 @@
+═══════════════════════════════════════════
+ PROJECT SUMMARY - project_summary.txt
+═══════════════════════════════════════════
+Project: Internship Match
+Course:  Artificial Intelligence, 4th year, ESIN - UIR
+Pair:    Jaafar Trabelsi, Mohammed El Habib Sefiani
+
+PROBLEM
+Students waste hours reading internship offers to figure out
+whether they actually qualify, and often find out too late that
+a requirement was missing.
+
+WHAT WE BUILD
+A small system. Input: a student's CV and the text of an
+internship offer. Output: a verdict (qualifies / almost /
+not suited) and the list of what is missing.
+If the offer is too vague, the system refuses instead of guessing.
+
+HOW (4 chained steps)
+  1. Extract  - Gemini (LLM)         offer text -> requirements
+  2. Match    - embeddings (no LLM)  CV skills + requirements -> scores
+  3. Decide   - simple rule (no LLM) scores -> verdict, or refuse
+  4. Explain  - Gemini (LLM)         verdict + missing -> short answer
+
+We USE Gemini through its API. We do not build a language model.
+
+THE CLAIM
+For students looking for internships, our system gives the correct
+verdict on at least 7 out of 10 CV-offer pairs, names the missing
+requirements, and refuses when the offer gives too little information.
+
+HOW WE PROVE IT
+  - Evaluation set: 15 to 24 CV-offer pairs, correct verdicts
+    written BEFORE building the system, including cases to refuse
+  - Baseline: Gemini alone on the same cases
+  - Ablation: the full system without the Decide step
+
+DATA
+  - Public IT internship offers, copied by hand
+  - Synthetic CVs written by us (no real personal data)

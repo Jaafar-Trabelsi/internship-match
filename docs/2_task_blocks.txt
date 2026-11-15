@@ -1,0 +1,44 @@
+═══════════════════════════════════════════
+ TASK BLOCKS - task_blocks.txt
+═══════════════════════════════════════════
+
+Block 1 - Jaafar (system)
+  - Build the Match step with embeddings (no LLM)
+  - Build the Extract and Explain steps with Gemini
+  - Write the Decide rule
+  - Write the notebook that chains the 4 steps
+  - Cache every Gemini call to disk
+
+Block 2 - Habib (data)
+  - Collect 10 public IT internship offers by hand
+  - Put them in data/offers.json (id, title, text)
+  - Write 5 synthetic CVs in data/cvs.json (id, text, skills)
+  - Deadline: before Lab 9
+
+Block 3 - Jaafar + Habib (together)
+  - Write data/eval_set.json: 15 to 24 CV-offer pairs
+  - Write the correct verdict for each case BEFORE the system runs
+  - Include 3 or 4 vague offers the system must refuse
+  - Both check every verdict
+  - Deadline: before Lab 9
+
+Block 4 - Jaafar (measurements)
+  - Measure the baseline: Gemini alone
+  - Measure the full system
+  - Run the ablation: without the Decide step
+
+Block 5 - Habib (results and limits)
+  - Fill the results table once the notebook has run
+  - Write the "limits" part of the report:
+    what the evaluation set does NOT cover
+  - Write "measured / estimated / not verified"
+
+Block 6 - Report and demo
+  - Jaafar: problem, claim, architecture, results, what failed
+  - Habib:  limits, honesty section, proofread
+  - Demo (10 min): Jaafar runs it, Habib presents the problem and data
+  - Both: run the whole notebook from an empty runtime
+    the day before the defence
+
+Rule: both names on everything. Both of us must be able to
+explain every part, because the jury can ask either of us.

@@ -1,0 +1,37 @@
+═══════════════════════════════════════════
+ internship-match/   (GitHub repo)
+═══════════════════════════════════════════
+
+internship-match/
+│
+├── README.md                    <- overview, how to run in Colab, team, demo steps
+│
+├── data/                                              [Block 2 + 3]
+│   ├── offers.json              <- 10 public IT offers        [Habib]
+│   ├── cvs.json                 <- 5 synthetic CVs            [Habib]
+│   └── eval_set.json            <- 15-24 cases + verdicts     [Jaafar + Habib]
+│
+├── notebook/                                          [Block 1 + 4 - Jaafar]
+│   └── internship_match.ipynb   <- the system: Extract, Match, Decide, Explain
+│                                   + baseline + ablation
+│
+├── results/                                           [Block 4 + 5]
+│   └── results_table.md         <- baseline / full system / ablation
+│
+├── docs/
+│   ├── project_summary.txt
+│   ├── task_blocks.txt
+│   ├── repo_structure.txt       <- this file
+│   ├── git_workflow.txt
+│   ├── pipeline_diagram.txt     <- the 4 steps
+│   ├── demo_screens.txt         <- what the demo shows
+│   ├── eval_plan.txt            <- claim, baseline, ablation
+│   ├── annex_A_charter.docx     <- submitted charter
+│   └── final_report.pdf         <- 6 pages max            [Jaafar + Habib]
+│
+├── slides/                      <- optional
+│   └── presentation.pptx
+│
+└── .gitignore                   <- .env, gemini_cache.json, __pycache__/, *.pyc
+
+NEVER commit the Gemini API key. In Colab, keep it in Colab Secrets.

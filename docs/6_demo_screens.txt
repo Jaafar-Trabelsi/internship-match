@@ -1,0 +1,64 @@
+═══════════════════════════════════════════
+ DEMO (10 min) - demo_screens.txt
+═══════════════════════════════════════════
+The demo runs in the Colab notebook. These are mock-ups
+of what each demo case shows. Values are examples only.
+
+
+═══════════════════════════════════════════
+ DEMO 1: COVERED CASE (qualifies)
+═══════════════════════════════════════════
+ ┌─────────────────────────────────────────┐
+ │ CV: C01      Offer: O01 (Data Analyst)  │
+ ├─────────────────────────────────────────┤
+ │ Extract: Python, SQL, Power BI          │
+ │ Match:   Python 0.91 | SQL 0.88 |       │
+ │          Power BI 0.86                  │
+ │ Decide:  0 missing -> QUALIFIES         │
+ │ Answer:  "You meet all the requirements."│
+ └─────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════
+ DEMO 2: CASE PICKED BY THE JURY (almost)
+═══════════════════════════════════════════
+ ┌─────────────────────────────────────────┐
+ │ CV: C01      Offer: O14 (Data Science)  │
+ ├─────────────────────────────────────────┤
+ │ Extract: Python, Machine Learning, SQL  │
+ │ Match:   Python 0.90 | ML 0.21 |        │
+ │          SQL 0.88                       │
+ │ Decide:  1 missing -> ALMOST            │
+ │ Answer:  "Almost: you are missing       │
+ │           Machine Learning."            │
+ └─────────────────────────────────────────┘
+ -> the jury chooses a case from eval_set.json
+    and we run it live. Not a recording.
+
+
+═══════════════════════════════════════════
+ DEMO 3: VAGUE OFFER (refuse)
+═══════════════════════════════════════════
+ ┌─────────────────────────────────────────┐
+ │ Offer: "Join our dynamic team for a     │
+ │         great internship."              │
+ ├─────────────────────────────────────────┤
+ │ Extract: (no requirements found)        │
+ │ Decide:  REFUSE                         │
+ │ Answer:  "Not enough information to     │
+ │           judge this offer."            │
+ └─────────────────────────────────────────┘
+ -> the system refuses instead of guessing
+
+
+═══════════════════════════════════════════
+ FINAL SCREEN: RESULTS TABLE
+═══════════════════════════════════════════
+ ┌──────────────────────────┬─────────┬─────────┐
+ │ Configuration            │ Verdicts│ Refusals│
+ ├──────────────────────────┼─────────┼─────────┤
+ │ Gemini alone (baseline)  │  to fill│ to fill │
+ │ Full system              │  to fill│ to fill │
+ │ Without Decide (ablation)│  to fill│ to fill │
+ └──────────────────────────┴─────────┴─────────┘
+ -> filled with the real measured numbers only

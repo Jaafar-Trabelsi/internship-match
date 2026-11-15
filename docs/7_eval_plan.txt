@@ -1,0 +1,54 @@
+═══════════════════════════════════════════
+ EVALUATION PLAN - eval_plan.txt
+═══════════════════════════════════════════
+
+1. THE CLAIM (written before any code)
+   For students looking for internships, our system gives the
+   correct verdict on at least 7 out of 10 CV-offer pairs, names
+   the missing requirements, and refuses when the offer gives
+   too little information.
+
+2. THE EVALUATION SET (built BEFORE the system)
+   - 15 to 24 cases, one CV + one offer each
+   - Correct verdict written by us for every case
+   - Includes 3 or 4 vague offers (correct answer: refuse)
+   - Written before the system runs, so it is not built from
+     cases that already work
+
+   Verdict rule:
+     0 missing requirements   -> qualifies
+     1 missing requirement    -> almost
+     2 or more missing        -> not suited
+     offer with no requirements -> refuse
+
+   Format of one case in eval_set.json:
+     {"case": 1, "cv": "C01", "offer": "O01",
+      "gold_verdict": "almost", "gold_missing": ["powerbi"]}
+
+3. THE BASELINE
+   Gemini alone: it receives the raw CV and the raw offer,
+   with no extraction, no embeddings and no rule.
+   Same cases, same labels.
+
+4. THE ABLATION
+   Remove one component (the Decide step) and measure again
+   on the same cases.
+
+5. THE RESULTS TABLE (fill with real numbers only)
+
+   Configuration                 | Correct verdicts | Correct refusals
+   ------------------------------|------------------|-----------------
+   Gemini alone (baseline)       |                  |
+   Full system                   |                  |
+   Without Decide (ablation)     |                  |
+
+6. HONEST REPORTING (separate these in the report)
+   - Measured:  the numbers in the table
+   - Estimated: anything we assume but did not test
+   - Not verified: what we could not check
+   Also report which cases failed and why.
+
+7. QUOTA
+   Free Gemini key: about 15 requests per minute, 1500 per day.
+   Cache every call to disk from the first line of code.
+   Example: 20 cases x 3 configurations = 60 calls per full run.

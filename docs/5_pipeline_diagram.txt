@@ -1,0 +1,48 @@
+                    ┌──────────────────────┐
+                    │  INPUT: CV + OFFER   │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                 ┌───────────────────────────┐
+                 │ 1. EXTRACT   (Gemini, LLM)│
+                 │ offer text -> requirements│
+                 └─────────────┬─────────────┘
+                               │  ["Python", "SQL", "Power BI"]
+                               ▼
+                 ┌───────────────────────────┐
+                 │ 2. MATCH (embeddings,     │
+                 │    NOT an LLM)            │
+                 │ requirements + CV skills  │
+                 │ -> similarity scores      │
+                 └─────────────┬─────────────┘
+                               │  Python 0.91 / SQL 0.88 / Power BI 0.20
+                               ▼
+                 ┌───────────────────────────┐
+                 │ 3. DECIDE (simple rule,   │
+                 │    NOT an LLM)            │
+                 └─────────────┬─────────────┘
+                               │
+        ┌──────────────┬───────┴───────┬────────────────┐
+        ▼              ▼               ▼                ▼
+   0 missing       1 missing      2+ missing      no requirements
+   QUALIFIES        ALMOST        NOT SUITED         REFUSE
+        └──────────────┴───────┬───────┴────────────────┘
+                               ▼
+                 ┌───────────────────────────┐
+                 │ 4. EXPLAIN   (Gemini, LLM)│
+                 │ verdict + missing items   │
+                 │ -> short answer           │
+                 └─────────────┬─────────────┘
+                               ▼
+              "Almost: you are missing Power BI."
+
+
+   ──────────────── WHAT WE MEASURE ────────────────
+
+   Same evaluation cases, three configurations:
+
+     1. Gemini alone                 (baseline)
+     2. Full system                  (Extract + Match + Decide + Explain)
+     3. Full system without Decide   (ablation)
+
+   Numbers in this diagram are examples only.
