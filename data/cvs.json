@@ -2,26 +2,127 @@
   {
     "id": "C01",
     "text": "Third-year computer science student. Built dashboards in Power BI for a student association's budget. Analysed datasets with Python (pandas) and wrote SQL queries on a PostgreSQL database for a course project. Comfortable with Excel and basic statistics.",
-    "skills": ["python", "sql", "powerbi", "excel", "pandas", "statistics"]
+    "skills": [
+      "python",
+      "sql",
+      "powerbi",
+      "excel",
+      "pandas",
+      "statistics"
+    ]
   },
   {
     "id": "C02",
     "text": "Third-year student focused on web development. Built a portfolio site and a small e-commerce app with React and Node.js. Uses Git and GitHub daily. Knows HTML, CSS and JavaScript, and has written simple SQL queries for a MySQL backend.",
-    "skills": ["javascript", "react", "nodejs", "html", "css", "git", "sql"]
+    "skills": [
+      "javascript",
+      "react",
+      "nodejs",
+      "html",
+      "css",
+      "git",
+      "sql"
+    ]
   },
   {
     "id": "C03",
     "text": "Fourth-year student with a machine learning focus. Trained classification and regression models with scikit-learn, and built a small image classifier with PyTorch for a course project. Handles data cleaning with pandas and Python scripts.",
-    "skills": ["python", "machine_learning", "scikit-learn", "pytorch", "pandas"]
+    "skills": [
+      "python",
+      "machine_learning",
+      "scikit-learn",
+      "pytorch",
+      "pandas"
+    ]
   },
   {
     "id": "C04",
     "text": "Third-year student specialised in cybersecurity. Ran network scans with Nmap and analysed traffic with Wireshark in lab exercises. Works on Linux, writes Bash scripts and short Python scripts to automate tasks. Understands TCP/IP and basic firewall rules.",
-    "skills": ["linux", "networking", "nmap", "wireshark", "bash", "python", "firewalls"]
+    "skills": [
+      "linux",
+      "networking",
+      "nmap",
+      "wireshark",
+      "bash",
+      "python",
+      "firewalls"
+    ]
   },
   {
     "id": "C05",
     "text": "Second-year student at the start of the curriculum. Learned HTML and CSS in a first-year course, wrote small programs in Java and basic Python exercises. Has used Git for a group assignment.",
-    "skills": ["html", "css", "java", "python", "git"]
+    "skills": [
+      "html",
+      "css",
+      "java",
+      "python",
+      "git"
+    ]
+  },
+  {
+    "id": "C06",
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "typescript",
+      "nextjs",
+      "python",
+      "fastapi",
+      "rest_apis",
+      "git"
+    ],
+    "text": "Final-year student in software engineering. Built web applications with React, TypeScript and Next.js for a course project and an internship project. Wrote REST APIs with Python and FastAPI. Uses HTML, CSS, JavaScript and Git daily."
+  },
+  {
+    "id": "C07",
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "typescript",
+      "python",
+      "fastapi",
+      "rest_apis",
+      "git"
+    ],
+    "text": "Third-year computer science student. Built a front-end with React and TypeScript and a small REST API with Python and FastAPI for a group project. Comfortable with HTML, CSS, JavaScript and Git. Has not used Next.js."
+  },
+  {
+    "id": "C08",
+    "skills": [
+      "python",
+      "machine_learning",
+      "deep_learning",
+      "tensorflow",
+      "pandas",
+      "sql"
+    ],
+    "text": "Final-year student with a data science focus. Trained neural networks (deep learning) with TensorFlow and classical machine learning models in Python. Prepares data with pandas and queries a SQL database. No dashboard or reporting tools."
+  },
+  {
+    "id": "C09",
+    "skills": [
+      "devops",
+      "docker",
+      "linux",
+      "networking",
+      "bash",
+      "python",
+      "git"
+    ],
+    "text": "Final-year student in systems and networks. Set up a small CI/CD pipeline and Docker containers (DevOps) for a course project, administers Linux servers, knows networking basics, writes Bash and Python scripts, and uses Git."
+  },
+  {
+    "id": "C10",
+    "skills": [
+      "sql",
+      "powerbi",
+      "python",
+      "statistics"
+    ],
+    "text": "Final-year data student. Built Power BI dashboards for a class project, wrote SQL queries and Python scripts, and applied basic statistics. Has not worked with Excel beyond simple tables."
   }
 ]

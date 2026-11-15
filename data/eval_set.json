@@ -1,0 +1,215 @@
+[
+ {
+  "case": 1,
+  "cv": "C01",
+  "offer": "O01",
+  "gold_verdict": "qualifies",
+  "gold_missing": []
+ },
+ {
+  "case": 2,
+  "cv": "C01",
+  "offer": "O05",
+  "gold_verdict": "qualifies",
+  "gold_missing": []
+ },
+ {
+  "case": 3,
+  "cv": "C02",
+  "offer": "O06",
+  "gold_verdict": "qualifies",
+  "gold_missing": []
+ },
+ {
+  "case": 4,
+  "cv": "C06",
+  "offer": "O02",
+  "gold_verdict": "qualifies",
+  "gold_missing": []
+ },
+ {
+  "case": 5,
+  "cv": "C08",
+  "offer": "O03",
+  "gold_verdict": "qualifies",
+  "gold_missing": []
+ },
+ {
+  "case": 6,
+  "cv": "C09",
+  "offer": "O04",
+  "gold_verdict": "qualifies",
+  "gold_missing": []
+ },
+ {
+  "case": 7,
+  "cv": "C02",
+  "offer": "O05",
+  "gold_verdict": "almost",
+  "gold_missing": [
+   "powerbi"
+  ]
+ },
+ {
+  "case": 8,
+  "cv": "C03",
+  "offer": "O03",
+  "gold_verdict": "almost",
+  "gold_missing": [
+   "deep_learning"
+  ]
+ },
+ {
+  "case": 9,
+  "cv": "C04",
+  "offer": "O04",
+  "gold_verdict": "almost",
+  "gold_missing": [
+   "devops"
+  ]
+ },
+ {
+  "case": 10,
+  "cv": "C07",
+  "offer": "O02",
+  "gold_verdict": "almost",
+  "gold_missing": [
+   "nextjs"
+  ]
+ },
+ {
+  "case": 11,
+  "cv": "C08",
+  "offer": "O05",
+  "gold_verdict": "almost",
+  "gold_missing": [
+   "powerbi"
+  ]
+ },
+ {
+  "case": 12,
+  "cv": "C10",
+  "offer": "O01",
+  "gold_verdict": "almost",
+  "gold_missing": [
+   "excel"
+  ]
+ },
+ {
+  "case": 13,
+  "cv": "C02",
+  "offer": "O01",
+  "gold_verdict": "not suited",
+  "gold_missing": [
+   "powerbi",
+   "excel"
+  ]
+ },
+ {
+  "case": 14,
+  "cv": "C05",
+  "offer": "O06",
+  "gold_verdict": "not suited",
+  "gold_missing": [
+   "javascript",
+   "frontend_framework",
+   "backend"
+  ]
+ },
+ {
+  "case": 15,
+  "cv": "C01",
+  "offer": "O02",
+  "gold_verdict": "not suited",
+  "gold_missing": [
+   "react",
+   "typescript",
+   "nextjs",
+   "fastapi",
+   "rest_apis"
+  ]
+ },
+ {
+  "case": 16,
+  "cv": "C03",
+  "offer": "O01",
+  "gold_verdict": "not suited",
+  "gold_missing": [
+   "powerbi",
+   "sql",
+   "excel"
+  ]
+ },
+ {
+  "case": 17,
+  "cv": "C04",
+  "offer": "O03",
+  "gold_verdict": "not suited",
+  "gold_missing": [
+   "machine_learning",
+   "deep_learning"
+  ]
+ },
+ {
+  "case": 18,
+  "cv": "C09",
+  "offer": "O03",
+  "gold_verdict": "not suited",
+  "gold_missing": [
+   "machine_learning",
+   "deep_learning"
+  ]
+ },
+ {
+  "case": 19,
+  "cv": "C06",
+  "offer": "O04",
+  "gold_verdict": "not suited",
+  "gold_missing": [
+   "devops",
+   "networking",
+   "linux"
+  ]
+ },
+ {
+  "case": 20,
+  "cv": "C05",
+  "offer": "O02",
+  "gold_verdict": "not suited",
+  "gold_missing": [
+   "react",
+   "typescript",
+   "nextjs",
+   "fastapi",
+   "rest_apis"
+  ]
+ },
+ {
+  "case": 21,
+  "cv": "C01",
+  "offer": "O07",
+  "gold_verdict": "refuse",
+  "gold_missing": []
+ },
+ {
+  "case": 22,
+  "cv": "C06",
+  "offer": "O08",
+  "gold_verdict": "refuse",
+  "gold_missing": []
+ },
+ {
+  "case": 23,
+  "cv": "C08",
+  "offer": "O09",
+  "gold_verdict": "refuse",
+  "gold_missing": []
+ },
+ {
+  "case": 24,
+  "cv": "C09",
+  "offer": "O10",
+  "gold_verdict": "refuse",
+  "gold_missing": []
+ }
+]

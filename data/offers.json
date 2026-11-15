@@ -57,8 +57,8 @@
     "title": "Data & Reporting Intern (Python + Power BI)",
     "text": "Data and reporting internship. The intern collects, cleans and structures source data, writes Python scripts to automate data processing, and designs and updates interactive Power BI dashboards. Candidates need experience with Power BI (dashboards, data modelling, DAX) and a good understanding of database and reporting concepts.",
     "requirements": [
-      "python",
-      "powerbi"
+      "powerbi",
+      "databases"
     ],
     "origin": "summary_of_public_offer",
     "source": "https://www.iagora.com/work/it/offerta/stage-marocco-informatica/5919429",
@@ -71,7 +71,9 @@
     "requirements": [
       "html",
       "css",
-      "javascript"
+      "javascript",
+      "frontend_framework",
+      "backend"
     ],
     "origin": "summary_of_public_offer",
     "source": "https://www.iagora.com/work/it/offerta/lavoro-marocco-informatica/5907798",
