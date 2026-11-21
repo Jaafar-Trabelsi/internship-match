@@ -5,6 +5,7 @@
     "skills": [
       "python",
       "sql",
+      "databases",
       "powerbi",
       "excel",
       "pandas",
@@ -18,10 +19,13 @@
       "javascript",
       "react",
       "nodejs",
+      "frontend_framework",
+      "backend",
       "html",
       "css",
       "git",
-      "sql"
+      "sql",
+      "databases"
     ]
   },
   {
@@ -98,7 +102,8 @@
       "deep_learning",
       "tensorflow",
       "pandas",
-      "sql"
+      "sql",
+      "databases"
     ],
     "text": "Final-year student with a data science focus. Trained neural networks (deep learning) with TensorFlow and classical machine learning models in Python. Prepares data with pandas and queries a SQL database. No dashboard or reporting tools."
   },
@@ -119,6 +124,7 @@
     "id": "C10",
     "skills": [
       "sql",
+      "databases",
       "powerbi",
       "python",
       "statistics"

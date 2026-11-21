@@ -45,8 +45,9 @@
   "case": 7,
   "cv": "C02",
   "offer": "O05",
-  "gold_verdict": "almost",
+  "gold_verdict": "not suited",
   "gold_missing": [
+   "python",
    "powerbi"
   ]
  },
