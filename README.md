@@ -24,7 +24,7 @@ For students looking for internships, the system gives the correct verdict on at
 
 - 24 CV-offer pairs in `data/eval_set.json`, gold verdicts written by us, including 4 vague offers to refuse.
 - Baseline: Gemini alone on the raw CV and raw offer.
-- Ablation: the full system without the Decide step.
+- Ablation: the full system without the Decide step (Gemini decides from the scores).
 - Results: see `results/results_table.md`.
 
 ## Repository
@@ -32,19 +32,20 @@ For students looking for internships, the system gives the correct verdict on at
 ```
 data/       offers.json (10 offers), cvs.json (10 synthetic CVs), eval_set.json (24 cases)
 notebook/   internship_match.ipynb  (the system + baseline + ablation)
-results/    results_table.md, baseline_results.csv, full_system_results.csv
-docs/       project documents, charter, final report
+results/    results_table.md, baseline_results.csv, full_system_results.csv,
+            full_system_v1_rerun_results.csv, full_system_v2_results.csv, ablation_results.csv
+docs/       project documents, charter (annex_A_charter.docx), final report
 slides/     presentation (optional)
 ```
 
 ## How to run (Google Colab)
 
 1. Open `notebook/internship_match.ipynb` in Colab.
-2. Add your Gemini API key in Colab **Secrets** under the name `GEMINI_API_KEY`. Never commit the key.
-3. Run the notebook from the top. When asked, upload `data/cvs.json`, `data/offers.json` and `data/eval_set.json`.
+2. Add your Gemini API key in Colab **Secrets** under the name `GEMINI_API_KEY`, with notebook access on. Never commit the key.
+3. Run the notebook from the top, cell by cell (not "Run all"). The notebook clones this repo to get the data.
 4. Every Gemini call is cached in `gemini_cache.json` (not committed). A re-run costs no quota. Download the cache before closing the session.
 
-Free tier: about 15 requests per minute. A full run of Extract + baseline is around 44 calls.
+Free tier: about 15 requests per minute. A full run of Extract v2 + the ablation is around 50 real calls (about 13 s each).
 
 ## Demo (10 min, live in the notebook)
 
@@ -59,4 +60,4 @@ Free tier: about 15 requests per minute. A full run of Extract + baseline is aro
 
 ## Status
 
-Work in progress. See `results/results_table.md` for the current numbers and the limits of the evaluation.
+Measured on 24 cases: baseline 18/24, full system v2 18/24, ablation 21/24. Report in progress. See `results/results_table.md` for all numbers, the failed cases and the limits of the evaluation.
